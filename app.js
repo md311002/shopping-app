@@ -122,7 +122,7 @@ mongoose
     useFindAndModify: false
   })
   .then(result => {
-    app.listen(process.env.PORT || 3001);
+    app.listen(process.env.PORT || 3000);
   })
   .catch(err => {
     console.log(err);
